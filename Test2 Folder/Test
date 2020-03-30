@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>David Mayfield</title>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/carousel/">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/4.4/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/4.4/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/4.4/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
+<link rel="icon" href="/docs/4.4/assets/img/favicons/favicon.ico">
+<meta name="msapplication-config" content="/docs/4.4/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#563d7c">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+  <nav class="navbar navbar-expand-md navbar-green fixed-top bg-dark">
+    <a class="navbar-brand" href="#">David Mayfield</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#team">Team <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#det">Details <span class="sr-only">(current)</span></a>
+        </li>
+        <!--
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      -->
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main role="main">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="padding-bottom: 100px">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://lh3.googleusercontent.com/proxy/0xVmgvNLuZ2SX3VjKYJkBpqjHI0QFBKH4i-EC7NeBknqIsoHKbqrMWn9TgsRRyeFQkLNe7SR-Ci57vQNdD-_MlpeMNPS6JwiQKW59Q1R4VtSri6G957gmNYdROA9cW02kl1QxFJpqbHoDfo90mmdvw" alt= "image" heignt="500" width="100%" class="main-bg-1">
+        <div class="container">
+          <div class="carousel-caption etxt-left">
+            <h1>Environmental Conservation</h1>
+            <p>Planting trees could never be easier. With our simple web program, you will be able to plant as many trees as you desire. Just click the button and watch them appear on the screen.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+    <h2 id="team">The Team</h2>
+    <hr class="hr">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="Snake.jpg" class="team">
+        <h2>Dave</h2>
+        </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="RedDead.jpg" class="team">
+        <h2>Rabun</h2>
+        </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="Witcher.jpg" class="team">
+        <h2>Ben</h2>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+  <br>
+  <br>
+ <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div id="det" class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Our Project:  <span class="text-muted">Unlike Anything Seen Before.</span></h2>
+        <p class="lead">Watch the reversal of deforestation right from your screen. Simply click a button to create a new tree. This project will allow users to plant trees directly onto their monitors. </p>
+        <br>
+        <p class="lead">We are building this web-program to enhance the average persons' knowledge of Environmental Conservation. There will also be a place to make donations to charities related to conserving the environment.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/tree.jpg" alt="" class="features">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">We will be using HTML, CSS, and <span class="text-muted">JavaScript</span></h2>
+        <p class="lead">We will be using HTML 5 and CSS 3 to create the layout and UI for users. Then to plant trees all over the screen we will use JavaScript to have them appear on the screen.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="img/tools.jpg" alt="" class="features">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">GitHub will be our <span class="text-muted">Interface for Collaboration </span></h2>
+        <p class="lead">Version history and content management are key to group coding projects. GitHub will be how we track code, make changes, and review each other's work. That will make things simpler for everyone and easier to use. </p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/github.png" alt="" class="features">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+   
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <p class="lead">The target audience for this website is very general. Anyone who cares about the environment and wants to have some fun would love playing around on the website and watching trees grow.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="img/target.jpg" alt="" class="features">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">We have very definable <span class="text-muted"> Milestones</span></h2>
+        <p class="lead">Friday, April 3rd: We will have all of the content/verbiag done.</p>
+        <p class="lead">Friday, April 10th:  We will have the UI for the site.</p>
+        <p class="lead">Friday, April 17t:  This will be the JS week, "planting" the trees.</p>
+        <p class="lead">Friday, April 24th: 100% completion.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="img/milestones.jpg" alt="" class="features">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Current Trends<span class="text-muted">We Could Use</span></h2>
+        <ol>
+          <li>
+            <p class="lead">The Future of CSS: Flexbox</p>
+            <ul>
+              <li>
+                <a href="https://www.wired.com/2013/04/the-future-of-css-flexbox-is-a-game-changer/" class="btn btn-primary btn-sm" role="button" aria-disabled="true">Check Out FlexBox!</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p class="lead">How to Animate Text with SVG and CSS </p>
+            <ul>
+              <li>
+                <a href="https://css-tricks.com/how-to-animate-text-with-svg-and-css/" class="btn btn-primary btn-sm" role="button" aria-disabled="true">Check Text Animation!</a>
+              </li>
+            </ul>
+          </li>
+        </ol>
+
+
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="img/trends.jpg" alt="" class="features">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2020 David Mayfield </p>
+  </footer>
+</main>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script></body>
+</html>
+
+
+</head>
+</html>
